@@ -362,6 +362,73 @@ body p:last-of-type {
     padding: 0 15px;
 }
 
+
+header .res_navigation {
+    width: 26px;
+    height: 17px;
+    cursor: pointer;
+    display: none;
+}
+
+.res_navigation .nav-toggle {
+    display: block;
+    position: relative;
+    transition: 0.3s ease;
+    z-index: 9;
+    width: 26px;
+    height: 17px;
+}
+
+.res_navigation .nav-toggle span {
+    position: absolute;
+    height: 2px;
+    border-radius: 10px;
+    width: 100%;
+    background: #000;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.res_navigation .nav-toggle span:first-child,
+.res_navigation .nav-toggle span:last-child {
+    transition: 0.2s ease-in-out;
+}
+
+.res_navigation .nav-toggle span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+    transition: opacity 0.2s ease-in-out;
+}
+
+.res_navigation .nav-toggle span:last-child {
+    top: auto;
+    bottom: 0;
+}
+
+.res_navigation .nav-toggle.active {
+    transform: rotate(45deg);
+}
+
+.res_navigation .nav-toggle.active span:first-child {
+    transform: translateX(-3%) rotate(90deg);
+    top: 16px !important;
+}
+
+.res_navigation .nav-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.res_navigation .nav-toggle.active span:first-child,
+.res_navigation .nav-toggle.active span:last-child {
+    top: 15px;
+    background-color: #000;
+}
+
+.mobile-menu {
+    display: none;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -964,12 +1031,15 @@ header .header-buttons a.register-btn:hover svg path {
     width: 1.111rem;
     height: 1.111rem;
     left: 0;
+    background-size: contain;
 }
 
 .payroll-tab-section .tab-common .wrap .image img {
     margin-top: 1.667rem;
     border-radius: 20px 0 20px 0px;
     width: 33.889rem;
+    margin-left: auto;
+    margin-right: 0;
 }
 
 .mordern_payroll {
@@ -1083,6 +1153,7 @@ header .header-buttons a.register-btn:hover svg path {
     cursor: pointer;
     padding: 1.39rem 0;
     gap: 1.11rem;
+    align-items: center;
 }
 
 .faq .faq-body {
@@ -1141,6 +1212,7 @@ header .header-buttons a.register-btn:hover svg path {
     width: 1.11rem;
     height: 1.11rem;
     left: 0;
+    background-size: contain;
 }
 
 .everything_need .wrap:not(:last-child) {
@@ -1312,7 +1384,7 @@ header .header-buttons a.register-btn:hover svg path {
 }
 
 .home_cta {
-    padding-top: 0;
+    padding-top: 0 !important;
 }
 
 .home_cta .wrap img.icon {
@@ -1383,6 +1455,7 @@ header .header-buttons a.register-btn:hover svg path {
 .home_cta .btn-wrap {
     display: flex;
     gap: 1.11rem;
+    flex-wrap: wrap;
 }
 
 .home_cta .wrap {

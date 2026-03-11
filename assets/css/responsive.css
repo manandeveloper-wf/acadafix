@@ -18,12 +18,998 @@
     }
 }
 
-@media only screen and (min-width: 1280px) and (max-width: 1499px) {}
+@media only screen and (min-width: 1280px) and (max-width: 1499px) {
+    html {
+        font-size: 1.3375vw;
+    }
 
-@media only screen and (min-width: 1121px) and (max-width: 1279px) {}
+    body h2 {
+        font-size: 2.611rem;
+        line-height: 120%;
+    }
 
-@media (max-width: 1120px) {}
+    .padding {
+        padding: 5.68rem 0;
+    }
 
-@media (max-width: 991px) {}
+    header .logo {
+        width: 156.997px;
+    }
 
-@media (max-width: 767px) {}
+    .hero_banner {
+        padding: 10rem 0 6.33rem;
+    }
+
+    .service .single {
+        padding: 0;
+    }
+
+    .service .single {
+        padding: 0;
+    }
+
+    .mordern_payroll .container,
+    .pricing-section .container {
+        max-width: 84.33rem;
+        padding-top: 5.22rem;
+        margin: 15px;
+    }
+
+    .builed-section .top {
+        grid-gap: 1.08rem;
+    }
+
+    .builed-section .bottom {
+        grid-gap: 1.08rem;
+        margin-top: 1.08rem;
+    }
+
+    .payroll-section .wrap {
+        grid-gap: 5.556rem;
+        grid-template-columns: 1fr 36.889rem;
+    }
+
+    .payroll-section .single {
+        padding: 2.222rem 2.222rem 3.444rem;
+    }
+
+    .payroll-tab-section h2 {
+        margin-bottom: 20px;
+    }
+
+    .payroll-tab-section .tab-common .wrap .image img {
+        width: 31.889rem;
+    }
+
+    .payroll-tab-section .tab-common .wrap .info img {
+        width: 4.556rem;
+        margin: 0 0 1.778rem;
+    }
+
+    .mordern_payroll h2 {
+        flex: 0 0 31.39rem;
+    }
+
+    .mordern_payroll .top {
+        padding: 0 15px;
+    }
+
+    .mordern_payroll .box {
+        padding: 0 15px;
+    }
+
+    .mordern_payroll .box .single {
+        padding: 1.7rem;
+    }
+
+    .mordern_payroll .box .single img {
+        height: 11.72rem;
+        margin: 1.78rem 0 1.67rem;
+    }
+
+    .everything_need .wrap .image {
+        flex: 0 0 33rem;
+    }
+
+    .everything_need .wrap {
+        gap: 4.94rem;
+    }
+
+    .everything_need .wrap:not(:last-child) {
+        padding-bottom: 4.78rem;
+    }
+
+    .everything_need .wrap h2 {
+        margin-bottom: 1.42rem;
+    }
+
+    .design_experience {
+        padding: 5.67rem 0;
+    }
+
+    .design_experience .box {
+        grid-template-columns: 29.89rem auto;
+    }
+
+    .home_cta .wrap {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .home_cta .wrap img.icon {
+        width: 4.556rem;
+        top: -1.778rem;
+        left: -1.778rem;
+    }
+
+    .home_cta .left-col {
+        flex: 0 0 32.67rem;
+        padding: 3rem 0 3rem 2rem;
+    }
+
+    footer:before {
+        width: 73.667rem;
+        height: 13.78rem;
+    }
+
+    footer .bottom {
+        padding-top: 8.78rem;
+        padding-bottom: 1.78rem;
+    }
+
+    footer .bottom .logo {
+        width: 10.56rem;
+    }
+}
+
+@media only screen and (min-width: 1121px) and (max-width: 1279px) {
+    html {
+        font-size: 1.3375vw;
+    }
+
+    body h1 {
+        letter-spacing: -1px;
+        font-size: 3.167rem;
+    }
+
+    body h2 {
+        font-size: 2.611rem;
+        line-height: 120%;
+    }
+
+    .padding {
+        padding: 5.68rem 0;
+    }
+
+    header .logo {
+        width: 156.997px;
+        margin-right: 40px;
+    }
+
+    header .header-buttons a.subscribe-btn {
+        margin-right: 10px;
+    }
+
+    header .header-buttons a.register-btn,
+    header .header-buttons a.login-btn {
+        padding: 11px 15px;
+    }
+
+    header .wrapper ul li a {
+        font-size: 14px;
+    }
+
+    header .wrapper ul {
+        gap: 25px;
+    }
+
+    .hero_banner {
+        padding: 10rem 0 6.33rem;
+    }
+
+    .hero_banner h1 {
+        padding-bottom: 1.11rem;
+        padding-right: 3rem;
+    }
+
+    .hero_banner p.content {
+        margin-bottom: 1.78rem;
+    }
+
+    .hero_banner .wrap .left-col {
+        padding-top: 2rem;
+    }
+
+    .hero_banner .right-col .first-img img:last-child {
+        width: 7rem;
+    }
+
+    .hero_banner .right-col .second-img img:last-child {
+        width: 5rem;
+    }
+
+    .service .single {
+        padding: 0;
+    }
+
+    .service .single {
+        padding: 0;
+    }
+
+    .mordern_payroll .container,
+    .pricing-section .container {
+        max-width: 84.33rem;
+        padding-top: 5.22rem;
+        margin: 15px;
+    }
+
+    .builed-section .top {
+        grid-gap: 1.08rem;
+    }
+
+    .builed-section .bottom {
+        grid-gap: 1.08rem;
+        margin-top: 1.08rem;
+    }
+
+    .payroll-section .wrap {
+        grid-gap: 5.556rem;
+        grid-template-columns: 1fr 36.889rem;
+    }
+
+    .payroll-section .single {
+        padding: 2.222rem 2.222rem 3.444rem;
+    }
+
+    .payroll-tab-section h2 {
+        margin-bottom: 20px;
+    }
+
+    .payroll-tab-section .tab-common .wrap .image img {
+        width: 31.889rem;
+    }
+
+    .payroll-tab-section .tab-common .wrap .info img {
+        width: 4.556rem;
+        margin: 0 0 1.778rem;
+    }
+
+    .mordern_payroll h2 {
+        flex: 0 0 31.39rem;
+    }
+
+    .mordern_payroll .top {
+        padding: 0 15px;
+    }
+
+    .mordern_payroll .box {
+        padding: 0 15px;
+    }
+
+    .mordern_payroll .box .single {
+        padding: 1.7rem;
+    }
+
+    .mordern_payroll .box .single img {
+        height: 11.72rem;
+        margin: 1.78rem 0 1.67rem;
+    }
+
+    .everything_need .wrap .image {
+        flex: 0 0 33rem;
+    }
+
+    .everything_need .wrap {
+        gap: 4.94rem;
+    }
+
+    .everything_need .wrap:not(:last-child) {
+        padding-bottom: 4.78rem;
+    }
+
+    .everything_need .wrap h2 {
+        margin-bottom: 1.42rem;
+    }
+
+    .design_experience {
+        padding: 5.67rem 0;
+    }
+
+    .design_experience .box {
+        grid-template-columns: 29.89rem auto;
+    }
+
+    .home_cta .wrap {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .home_cta .wrap img.icon {
+        width: 4.556rem;
+        top: -1.778rem;
+        left: -1.778rem;
+    }
+
+    .home_cta .left-col {
+        flex: 0 0 32.67rem;
+        padding: 3rem 0 3rem 2rem;
+    }
+
+    footer:before {
+        width: 73.667rem;
+        height: 13.78rem;
+    }
+
+    footer .bottom {
+        padding-top: 8.78rem;
+        padding-bottom: 1.78rem;
+    }
+
+    footer .bottom .logo {
+        width: 10.56rem;
+    }
+}
+
+@media (max-width: 1120px) {
+    html {
+        font-size: 16px;
+    }
+
+    body h1 {
+        letter-spacing: -1px;
+        font-size: 2.567rem;
+    }
+
+    body h2 {
+        font-size: 2.111rem;
+        line-height: 120%;
+    }
+
+    .padding {
+        padding: 4rem 0;
+    }
+
+    header nav,
+    header nav+.header-buttons {
+        display: none !important;
+    }
+
+    header .res_navigation {
+        display: block;
+        margin-left: auto;
+    }
+
+    header .logo {
+        width: 156.997px;
+        margin-right: 40px;
+        position: relative;
+        z-index: 1;
+    }
+
+    header .header-buttons a.subscribe-btn {
+        display: none;
+    }
+
+    header .header-buttons a.register-btn,
+    header .header-buttons a.login-btn {
+        padding: 11px 15px;
+        font-size: 18px;
+        letter-spacing: -0.4px;
+        text-transform: uppercase;
+    }
+
+    header .wrapper ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    header .wrapper ul li,
+    .mobile.header-buttons a {
+        opacity: 0;
+        will-change: transform, opacity;
+    }
+
+    header .wrapper ul li a {
+        text-transform: uppercase;
+        letter-spacing: -2.5px;
+        font-size: 54px;
+        line-height: 100%;
+        font-weight: 400;
+    }
+
+    header .mobile-menu {
+        background: #fefbf4;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 100px;
+        display: flex;
+        position: fixed;
+        inset: 0;
+        transform: translateX(100%);
+        transition: all ease 0.7s;
+    }
+
+    html.menu-open header .mobile-menu {
+        transform: translateX(0%);
+    }
+
+    header .mobile-menu::before {
+        position: absolute;
+        content: "";
+        background: url(../images/built-for-bg.png) 0 0 / cover no-repeat;
+        inset: 0;
+        pointer-events: none;
+    }
+
+    header .wrapper .header-buttons {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .hero_banner {
+        padding: 8rem 0 5.33rem;
+    }
+
+    .hero_banner h1 {
+        padding-bottom: 1.11rem;
+        padding-right: 3rem;
+    }
+
+    .hero_banner p.content {
+        margin-bottom: 1.78rem;
+    }
+
+    .hero_banner .wrap {
+        grid-template-columns: 24.44rem 33.11rem;
+    }
+
+    .hero_banner .wrap .left-col {
+        padding-top: 2rem;
+    }
+
+    .hero_banner .right-col .first-img img:last-child {
+        width: 7rem;
+    }
+
+    .hero_banner .right-col .second-img img:last-child {
+        width: 5rem;
+    }
+
+    .service .single {
+        padding: 0;
+    }
+
+    .service .single {
+        padding: 0;
+    }
+
+    .mordern_payroll .container,
+    .pricing-section .container {
+        max-width: 84.33rem;
+        margin: 15px;
+        padding-top: 4.22rem;
+    }
+
+    .pricing-section .wrap .single:first-child img {
+        width: 5.67rem;
+    }
+
+    .pricing-section .wrap .single:last-child img {
+        width: 8.72rem;
+    }
+
+    .pricing-section .wrap .single .price p {
+        font-size: 2.21rem;
+    }
+
+    .pricing-section .wrap .single p.title {
+        margin-bottom: 1.52rem;
+    }
+
+    .builed-section .top {
+        grid-gap: 1.08rem;
+    }
+
+    .builed-section .bottom {
+        grid-gap: 1.08rem;
+        margin-top: 1.08rem;
+    }
+
+    .builed-section p.sub-text {
+        margin: 1.92rem auto 2.33rem;
+    }
+
+    .payroll-section .wrap {
+        grid-gap: 2.556rem;
+        grid-template-columns: 1fr 29.889rem;
+    }
+
+    .payroll-section .single {
+        padding: 1.822rem 1.522rem 2.544rem;
+    }
+
+    .payroll-section .single p.number {
+        font-size: 4.033rem;
+    }
+
+    .payroll-tab-section h2 {
+        margin-bottom: 20px;
+    }
+
+    .payroll-section .wrap h2 {
+        margin-bottom: 20px;
+    }
+
+    .payroll-section .img-wrap {
+        margin-top: 2.389rem;
+    }
+
+    .payroll-tab-section ul.tab-list {
+        flex-wrap: wrap;
+    }
+
+    .payroll-tab-section .tab-common .wrap .image img {
+        width: 31.889rem;
+    }
+
+    .payroll-tab-section .tab-common .wrap .info p.sub-text {
+        margin-bottom: 1.256rem;
+    }
+
+    .payroll-tab-section .tab-common .wrap .info {
+        padding: 4rem 0 0 3.333rem;
+    }
+
+    .payroll-tab-section .tab-common .wrap .info img {
+        width: 4.556rem;
+        margin: 0 0 1.778rem;
+    }
+
+    .mordern_payroll h2 {
+        flex: 0 0 31.39rem;
+    }
+
+    .mordern_payroll .top {
+        padding: 0 15px;
+    }
+
+    .mordern_payroll .box {
+        padding: 0 15px;
+    }
+
+    .mordern_payroll .box .single {
+        padding: 1.7rem;
+    }
+
+    .mordern_payroll .box .single img {
+        height: 11.72rem;
+        margin: 1.78rem 0 1.67rem;
+    }
+
+    .everything_need .wrap .image {
+        flex: 0 0 30rem;
+    }
+
+    .everything_need .wrap {
+        gap: 4.94rem;
+    }
+
+    .everything_need .wrap:not(:last-child) {
+        padding-bottom: 4.78rem;
+        gap: 3.94rem;
+    }
+
+    .everything_need .wrap h2 {
+        margin-bottom: 1.42rem;
+    }
+
+    .design_experience {
+        padding: 5.67rem 0;
+    }
+
+    .design_experience .box {
+        grid-template-columns: 29.89rem auto;
+    }
+
+    .home_cta .wrap {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .home_cta .wrap img.icon {
+        width: 4.556rem;
+        top: -1.778rem;
+        left: -1.778rem;
+    }
+
+    .home_cta .left-col {
+        flex: 0 0 32.67rem;
+        padding: 3rem 0 3rem 2rem;
+    }
+
+    .faq .faq-header h4 {
+        font-size: 0.98rem;
+    }
+
+    .faq .faq-header {
+        padding: 0.99rem 0;
+    }
+
+    .design_experience .box .right-col ul {
+        grid-template-columns: 1fr;
+    }
+
+    .resource_section .btn-wrap {
+        margin-top: 2.33rem;
+    }
+
+    .home_cta p {
+        padding-bottom: 1.68rem;
+    }
+
+    footer:before {
+        width: 58.667rem;
+        height: 12.78rem;
+    }
+
+    footer .bottom {
+        padding-top: 8.78rem;
+        padding-bottom: 1.78rem;
+    }
+
+    footer .bottom .logo {
+        width: 10.56rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .hero_banner .wrap .left-col {
+        padding-top: 0rem;
+    }
+
+    .hero_banner h1 {
+        padding-right: 0;
+    }
+
+    .hero_banner .wrap {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+
+    .service .wrap {
+        grid-gap: 2.67rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mordern_payroll .container,
+    .pricing-section .container {
+        padding-top: 3.22rem;
+    }
+
+    .pricing-section .wrap {
+        grid-gap: 1rem;
+        margin-top: 3rem;
+    }
+
+    .pricing-section .wrap .single:first-child img {
+        width: 4.67rem;
+    }
+
+    .pricing-section .wrap .single:last-child img {
+        width: 6.72rem;
+    }
+
+    .pricing-section h2 {
+        padding-bottom: 1.07rem;
+    }
+
+    .builed-section .bottom {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .payroll-section .wrap {
+        grid-template-columns: 1fr;
+    }
+
+    .payroll-tab-section .tab-common .wrap .image img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .payroll-tab-section .tab-common .wrap {
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .payroll-tab-section .tab-common .wrap .info {
+        padding: 0;
+    }
+
+    .payroll-tab-section .tab-common .wrap .info img {
+        width: 3.556rem;
+    }
+
+    .mordern_payroll .top {
+        gap: 2.94rem;
+    }
+
+    .mordern_payroll h2 {
+        flex: 0 0 20.39rem;
+    }
+
+    .mordern_payroll .box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .mordern_payroll .box .single img {
+        height: 16.72rem;
+        margin: 1rem 0;
+    }
+
+    .everything_need .wrap {
+        gap: 2rem;
+    }
+
+    .everything_need .wrap:not(:last-child) {
+        flex-direction: column-reverse;
+        padding-bottom: 3.78rem;
+    }
+
+    .everything_need .wrap:nth-child(2n) {
+        flex-direction: column-reverse;
+    }
+
+    .everything_need .info p.sub-text {
+        margin-bottom: 1.38rem;
+    }
+
+    .everything_need .wrap .image {
+        flex: unset;
+    }
+
+    .design_experience {
+        padding: 4rem 0;
+    }
+
+    .design_experience h2 {
+        margin-bottom: 0.87rem;
+    }
+
+    .design_experience p.sub-text {
+        margin: 0 auto 2.33rem;
+    }
+
+    .design_experience .box {
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        padding: 1.93rem;
+    }
+
+    .resource_section .box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .resource_section h2 {
+        margin-bottom: 1rem;
+    }
+
+    .home_cta .wrap {
+        flex-direction: column;
+    }
+
+    .home_cta .left-col {
+        flex: unset;
+        padding: 2rem;
+    }
+
+    .home_cta .right-col {
+        margin-bottom: -3rem;
+        margin-right: 0;
+        margin-top: -8rem;
+    }
+
+    footer .top ul.footer-menu {
+        display: none;
+    }
+
+    footer:before {
+        width: 45.667rem;
+        height: 9.78rem;
+    }
+
+    footer .bottom {
+        padding-top: 5.78rem;
+    }
+}
+
+@media (max-width: 767px) {
+
+    body h1 br,
+    body h2 br {
+        display: none;
+    }
+
+    .purple-btn {
+        padding: 0.68rem 1.27rem;
+    }
+
+    .hero_banner {
+        padding: 8rem 0px 4rem;
+    }
+
+    .hero_banner .right-col {
+        display: none;
+    }
+
+    .service h2.center {
+        margin-bottom: 2rem;
+    }
+
+    .service .wrap {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .service .single h3 {
+        padding: 1.66rem 0 1rem;
+    }
+
+    .pricing-section .wrap {
+        margin-top: 2rem;
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-section .wrap .single {
+        padding: 1.14rem;
+    }
+
+    .pricing-section .wrap .single p.title {
+        margin-bottom: 1.12rem;
+        font-size: 1.24rem;
+    }
+
+    .pricing-section .wrap .single .price p {
+        font-size: 1.81rem;
+    }
+
+    .pricing-section .wrap .single:first-child img {
+        width: 3.97rem;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    .pricing-section .wrap .single:last-child img {
+        width: 5.72rem;
+    }
+
+    .builed-section .top,
+    .builed-section .bottom {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .payroll-section .img-wrap img.icon {
+        width: 4.944rem;
+    }
+
+    .payroll-section .img-wrap:before {
+        width: 71%;
+    }
+
+    .payroll-section .img-wrap {
+        margin-top: 1.989rem;
+        padding: 1.933rem 1.378rem 0;
+    }
+
+    .payroll-section .single {
+        flex-direction: column-reverse;
+        align-items: baseline;
+        gap: 2rem;
+    }
+
+    .payroll-section .single p.number {
+        font-size: 3.233rem;
+    }
+
+    .payroll-section .single .info h3 {
+        font-size: 1.244rem;
+    }
+
+    .payroll-tab-section p.text {
+        margin: 0 auto 1.533rem;
+    }
+
+    .payroll-tab-section .tab-common .wrap {
+        padding: 1.5rem;
+    }
+
+    .mordern_payroll h2 {
+        flex: unset;
+    }
+
+    .mordern_payroll .top {
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .mordern_payroll .top,
+    .mordern_payroll .box {
+        padding: 0;
+    }
+
+    .mordern_payroll .box {
+        margin-top: 2.23rem;
+    }
+
+    .mordern_payroll .box .single {
+        padding: 1.3rem;
+    }
+
+    .mordern_payroll .box .single img {
+        height: 12.72rem;
+    }
+
+    .design_experience .box {
+        padding: 1.43rem;
+    }
+
+    .design_experience .box .right-col ul li {
+        padding-left: 1.82rem;
+    }
+
+    .resource_section p.sub-text {
+        font-size: .89rem;
+    }
+
+    .resource_section .box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .home_cta .wrap {
+        max-width: 100%;
+        padding: 1.2rem;
+    }
+
+    .home_cta .left-col {
+        padding: 0;
+    }
+
+    .home_cta .wrap img.icon {
+        display: none;
+    }
+
+    .home_cta .right-col {
+        margin-top: 0;
+    }
+
+    footer .bottom {
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    footer:before {
+        width: 100%;
+        height: 11.78rem;
+    }
+
+    header .mobile-menu {
+        padding-left: 20px;
+    }
+
+    header .wrapper ul {
+        gap: 18px;
+    }
+
+    header .wrapper ul li a {
+        letter-spacing: -0.7px;
+        font-size: 26px;
+        font-weight: 500;
+    }
+
+    header .header-buttons a.register-btn,
+    header .header-buttons a.login-btn {
+        font-size: 16px;
+    }
+
+    header .wrapper .header-buttons {
+        margin-top: 20px;
+    }
+}
