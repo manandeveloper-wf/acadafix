@@ -1,0 +1,29 @@
+@media only screen and (min-width: 1500px) and (max-width: 1699px) {
+    html {
+        font-size: 1.1375vw;
+    }
+
+    .mordern_payroll .container {
+        max-width: 84.33rem;
+        padding-top: 6.22rem;
+    }
+
+    .mordern_payroll .box {
+        padding: 0 2.78rem;
+    }
+
+    footer:before {
+        width: 87.667rem;
+        height: 16.78rem;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1499px) {}
+
+@media only screen and (min-width: 1121px) and (max-width: 1279px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {}
