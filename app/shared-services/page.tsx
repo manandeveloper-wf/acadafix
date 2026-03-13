@@ -8,6 +8,14 @@ import PrecisionTechnologySection from "@/components/SharedServices/PrecisionTec
 import InnerCta from "@/components/SharedServices/InnerCta";
 import JoinHub from "@/components/SharedServices/JoinHub";
 import WhyJoinService from "@/components/SharedServices/WhyJoinService";
+import IntroductionSection from "@/components/SharedServices/IntroductionSection";
+import InnerCta2 from "@/components/SharedServices/InnerCta2";
+import BureausEdge from "@/components/SharedServices/BureausEdge";
+import WhyEducationPayroll from "@/components/SharedServices/WhyEducationPayroll";
+import EfficiencyToolTable from "@/components/SharedServices/EfficiencyToolTable";
+import SecurityDemandSection from "@/components/SharedServices/SecurityDemandSection";
+import InnerCta3 from "@/components/SharedServices/InnerCta3";
+
 
 export default function Home() {
   return (
@@ -19,7 +27,14 @@ export default function Home() {
       <PrecisionTechnologySection />
       <InnerCta />
       <JoinHub />
-      <WhyJoinService/>
+      <WhyJoinService />
+      <IntroductionSection />
+      <InnerCta2 />
+      <BureausEdge />
+      <WhyEducationPayroll />
+      <EfficiencyToolTable />
+      <SecurityDemandSection />
+      <InnerCta3 />
     </div>
   );
 }

@@ -11,7 +11,7 @@ export default function ServiceSection() {
     return (
         <section className="service padding">
             <div className="container">
-                <h2 className="center"><span>Unique</span> AcadaFix Services</h2>
+                <h2 className="center text-reveal"><span>Unique</span> AcadaFix Services</h2>
                 <div className="wrap">
                     <div className="single">
                         <Image src={Icon1} alt="" />

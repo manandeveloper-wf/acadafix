@@ -10,8 +10,8 @@ export default function PricingSection() {
     return (
         <section className="pricing-section padding">
             <div className="container">
-                <h2 className="center"><span>Payroll</span> Software Pricing</h2>
-                <p className="sub-text center">Here at AcadaFix we believe in a transparent and open subscription pricing policy.</p>
+                <h2 className="center text-reveal"><span>Payroll</span> Software Pricing</h2>
+                <p className="sub-text center text-reveal">Here at AcadaFix we believe in a transparent and open subscription pricing policy.</p>
                 <div className="wrap">
                     <div className="single">
                         <div className="info">
@@ -24,7 +24,7 @@ export default function PricingSection() {
                                 </svg>
                             </a>
                         </div>
-                        <div className="price">
+                        <div className="price text-reveal">
                             <p>£3.00</p>
                         </div>
                         <Image src={HeroIcon1} alt="" />
@@ -42,7 +42,7 @@ export default function PricingSection() {
                                 </svg>
                             </a>
                         </div>
-                        <div className="price">
+                        <div className="price text-reveal">
                             <p>£15.00</p>
                         </div>
                         <Image src={CreditIcon} alt="" />

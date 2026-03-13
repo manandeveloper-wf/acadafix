@@ -10,8 +10,8 @@ export default function WhyJoinService() {
     return (
         <section className="why_shared_service section2">
             <div className="container">
-                <h3 className="center">Why Join an Existing Shared Services Hub?</h3>
-                <p className="sub-text center">By integrating your payroll into a partner MAT’s hub, you gain more than just AcadaFix software; you gain a professional alliance:</p>
+                <h3 className="center text-reveal">Why Join an Existing Shared Services Hub?</h3>
+                <p className="sub-text center text-reveal">By integrating your payroll into a partner MAT’s hub, you gain more than just AcadaFix software; you gain a professional alliance:</p>
                 <div className="wrap">
                     <div className="single">
                         <Image src={Icon1} alt="" />

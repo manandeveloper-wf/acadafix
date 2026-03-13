@@ -16,6 +16,18 @@
         width: 87.667rem;
         height: 16.78rem;
     }
+
+    .inner_banner .wrap {
+        grid-template-columns: 1fr 45.33rem;
+    }
+
+    .inner_banner .wrap img {
+        margin-right: 0;
+    }
+
+    .empower_section {
+        padding: 5rem 0;
+    }
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1499px) {
@@ -23,8 +35,12 @@
         font-size: 1.3375vw;
     }
 
+    body h1 {
+        font-size: 2.967rem;
+    }
+
     body h2 {
-        font-size: 2.611rem;
+        font-size: 2.211rem;
         line-height: 120%;
     }
 
@@ -37,7 +53,7 @@
     }
 
     .hero_banner {
-        padding: 10rem 0 6.33rem;
+        padding: 8rem 0 6.33rem;
     }
 
     .service .single {
@@ -159,6 +175,71 @@
 
     footer .bottom .logo {
         width: 10.56rem;
+    }
+
+    .inner_banner .wrap {
+        grid-template-columns: 1fr 43.33rem;
+    }
+
+    .inner_banner .wrap img {
+        margin-right: 0;
+    }
+
+    .empower_section {
+        padding: 4rem 0;
+    }
+
+    .why_shared_service .wrap {
+        margin-top: 1.78rem;
+    }
+
+    .service_table {
+        margin-top: 4rem;
+    }
+
+    .service_table .main-wrap {
+        padding: 4.16rem 2.06rem 0;
+    }
+
+    .why_shared_service.precision {
+        padding: 4rem 0;
+    }
+
+    .inner_cta .wrap {
+        padding: 2.69rem;
+    }
+
+    .inner_cta h2 {
+        margin-bottom: 1.07rem;
+    }
+
+    .why_shared_service .wrap {
+        grid-gap: 1.27rem;
+    }
+
+    .why_shared_service .wrap .single {
+        padding: 1.07rem
+    }
+
+    .why_shared_service .wrap .single img {
+        margin: 0 0 0.97rem;
+        width: 3rem;
+    }
+
+    .introduction_section {
+        padding: 4rem 0;
+    }
+
+    .empower_section .wrap {
+        grid-gap: 2.24rem;
+    }
+
+    .inner_cta {
+        padding-bottom: 4rem;
+    }
+
+    .inner_cta.section3 p.sub-text {
+        margin: 0 auto 2.56rem;
     }
 }
 
@@ -347,6 +428,71 @@
 
     footer .bottom .logo {
         width: 10.56rem;
+    }
+
+    .inner_banner .wrap {
+        grid-template-columns: 1fr 43.33rem;
+    }
+
+    .inner_banner .wrap img {
+        margin-right: 0;
+    }
+
+    .empower_section {
+        padding: 4rem 0;
+    }
+
+    .why_shared_service .wrap {
+        margin-top: 1.78rem;
+    }
+
+    .service_table {
+        margin-top: 4rem;
+    }
+
+    .service_table .main-wrap {
+        padding: 4.16rem 2.06rem 0;
+    }
+
+    .why_shared_service.precision {
+        padding: 4rem 0;
+    }
+
+    .inner_cta .wrap {
+        padding: 2.69rem;
+    }
+
+    .inner_cta h2 {
+        margin-bottom: 1.07rem;
+    }
+
+    .why_shared_service .wrap {
+        grid-gap: 1.27rem;
+    }
+
+    .why_shared_service .wrap .single {
+        padding: 1.07rem
+    }
+
+    .why_shared_service .wrap .single img {
+        margin: 0 0 0.97rem;
+        width: 3rem;
+    }
+
+    .introduction_section {
+        padding: 4rem 0;
+    }
+
+    .empower_section .wrap {
+        grid-gap: 2.24rem;
+    }
+
+    .inner_cta {
+        padding-bottom: 4rem;
+    }
+
+    .inner_cta.section3 p.sub-text {
+        margin: 0 auto 2.56rem;
     }
 }
 
@@ -660,6 +806,92 @@
     footer .bottom .logo {
         width: 10.56rem;
     }
+
+    .inner_banner {
+        padding: 6.78rem 0 2.78rem;
+    }
+
+    .inner_banner .wrap {
+        grid-template-columns: 1fr 33.33rem;
+    }
+
+    .inner_banner .wrap img {
+        margin-right: 0;
+    }
+
+    .empower_section {
+        padding: 4rem 0;
+    }
+
+    .why_shared_service .wrap {
+        margin-top: 1.78rem;
+    }
+
+    .service_table {
+        margin-top: 4rem;
+    }
+
+    .service_table .bottom tr th {
+        padding: 1.07rem;
+    }
+
+    .service_table .bottom tr td {
+        padding: 0.7rem 1.17rem;
+    }
+
+    .service_table .bottom tr td:first-child {
+        width: 12.67rem;
+    }
+
+    .service_table .main-wrap {
+        padding: 4.16rem 2.06rem 0;
+    }
+
+    .why_shared_service.precision {
+        padding: 4rem 0;
+    }
+
+    .inner_cta .wrap {
+        padding: 2.69rem;
+    }
+
+    .inner_cta h2 {
+        margin-bottom: 1.07rem;
+    }
+
+    .why_shared_service .wrap {
+        grid-gap: 1.27rem;
+    }
+
+    .why_shared_service .wrap .single {
+        padding: 1.07rem
+    }
+
+    .why_shared_service .wrap .single img {
+        margin: 0 0 0.97rem;
+        width: 3rem;
+    }
+
+    .introduction_section {
+        padding: 4rem 0;
+    }
+
+    .introduction_section .wrap {
+        grid-gap: 3rem;
+        grid-template-columns: 24.33rem auto;
+    }
+
+    .empower_section .wrap {
+        grid-gap: 2.24rem;
+    }
+
+    .inner_cta {
+        padding-bottom: 4rem;
+    }
+
+    .inner_cta.section3 p.sub-text {
+        margin: 0 auto 2.56rem;
+    }
 }
 
 @media (max-width: 991px) {
@@ -819,6 +1051,27 @@
 
     footer .bottom {
         padding-top: 5.78rem;
+    }
+
+    .inner_banner .wrap {
+        grid-template-columns: 1fr 24.33rem;
+    }
+
+    .service_table .top {
+        gap: 1.67rem;
+    }
+
+    .service_table .bottom {
+        grid-template-columns: 1fr;
+    }
+
+    .why_shared_service.section2 .wrap {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .introduction_section .wrap {
+        grid-gap: 2.3rem;
+        grid-template-columns: 1fr;
     }
 }
 
@@ -1011,5 +1264,73 @@
 
     header .wrapper .header-buttons {
         margin-top: 20px;
+    }
+
+    .inner_banner {
+        padding: 7.58rem 0 3.08rem;
+    }
+
+    .inner_banner h1 {
+        text-align: center;
+    }
+
+    .inner_banner .wrap {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+
+    body h1 {
+        font-size: 1.967rem;
+    }
+
+    body h2 {
+        font-size: 1.711rem;
+        letter-spacing: -1.2px;
+    }
+
+    .empower_section .wrap {
+        grid-template-columns: 1fr;
+    }
+
+    .empower_section h2 {
+        margin-bottom: 0.97rem;
+    }
+
+    .why_shared_service .wrap {
+        grid-template-columns: 1fr;
+    }
+
+    .service_table .main-wrap {
+        padding: 3.06rem 15px 0;
+    }
+
+    .service_table .top h3 {
+        flex: unset;
+    }
+
+    .service_table .top {
+        margin-bottom: 2rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .service_table .bottom tr td:first-child {
+        width: 7.67rem;
+    }
+
+    .service_table .img-wrap {
+        padding: 2.03rem 15px 0;
+    }
+
+    .inner_cta .wrap {
+        padding: 1.49rem;
+    }
+
+    .why_shared_service.section2 .wrap {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .introduction_section .img-wrap {
+        padding: 2.23rem 15px 0;
     }
 }

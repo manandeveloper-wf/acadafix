@@ -9,9 +9,9 @@ export default function SharedServiceList() {
     return (
         <section className="why_shared_service">
             <div className="container">
-                <h3 className="center">Why "Shared Services" is the Future of Education Finance</h3>
-                <p className="sub-text center">In a landscape of tightening budgets, efficiency and collaboration is the only way forward. By offering payroll as a shared service, your MAT can:</p>
-                <div className="wrap">
+                <h3 className="center text-reveal">Why "Shared Services" is the Future of Education Finance</h3>
+                <p className="sub-text center text-reveal">In a landscape of tightening budgets, efficiency and collaboration is the only way forward. By offering payroll as a shared service, your MAT can:</p>
+                <div className="wrap text-reveal">
                     <div className="single">
                         <Image src={Icon1} alt="" />
                         <p className="title">Generate Sustainable Revenue</p>

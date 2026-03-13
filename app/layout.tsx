@@ -4,6 +4,7 @@ import "../assets/css/style.css"
 import "../assets/css/responsive.css"
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import GSAPProvider from "@/components/GSAPProvider";
 
 const dmSans = DM_Sans({
     variable: "--font-dm-sans",
@@ -27,7 +28,9 @@ export default function RootLayout({
             >
                 <Header />
                 <main>
-                    {children}
+                    <GSAPProvider>
+                        {children}
+                    </GSAPProvider>
                 </main>
                 <Footer />
             </body>

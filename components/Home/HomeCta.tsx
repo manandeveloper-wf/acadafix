@@ -10,9 +10,9 @@ export default function HomeCta() {
             <div className="container">
                 <div className="wrap">
                     <div className="left-col">
-                        <h2><span>Ready</span> to modernise payroll <br />across your MAT?</h2>
-                        <p>See how AcadaFix brings accuracy, compliance and visibility to every school in your trust.</p>
-                        <div className="btn-wrap">
+                        <h2 className="text-reveal"><span>Ready</span> to modernise payroll <br />across your MAT?</h2>
+                        <p className="text-reveal">See how AcadaFix brings accuracy, compliance and visibility to every school in your trust.</p>
+                        <div className="btn-wrap text-reveal">
                             <a href="" className="white-btn">
                                 Subscribe
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11" fill="none">

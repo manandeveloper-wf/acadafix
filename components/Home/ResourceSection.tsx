@@ -9,8 +9,8 @@ export default function ResourceSection() {
     return (
         <section className="resource_section padding">
             <div className="container">
-                <h2 className="center"><span>Helpful</span> resources for MAT finance <br /> and payroll teams.</h2>
-                <p className="sub-text center">Guides created to support schools and trusts with payroll, pensions and compliance.</p>
+                <h2 className="center text-reveal"><span>Helpful</span> resources for MAT finance <br /> and payroll teams.</h2>
+                <p className="sub-text center text-reveal">Guides created to support schools and trusts with payroll, pensions and compliance.</p>
                 <div className="box">
                     <div className="single">
                         <div className="img-wrap">

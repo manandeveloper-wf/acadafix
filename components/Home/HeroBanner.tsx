@@ -12,8 +12,8 @@ export default function HeroBanner() {
         <section className="hero_banner">
             <div className="container">
                 <div className="wrap">
-                    <div className="left-col">
-                        <h1><span>Streamlined</span> Payroll & Pension Solution for the Education Sector</h1>
+                    <div className="text-reveal left-col">
+                        <h1 className=""><span>Streamlined</span> Payroll & Pension Solution for the Education Sector</h1>
                         <p className="content">Our software has been founded by a Multi-Academy Trust Finance & Payroll Professional. Simplifying payroll & pension reporting for in-house processing.</p>
                         <div className="btn-group">
                             <Link className="purple-btn" href="">
@@ -32,11 +32,11 @@ export default function HeroBanner() {
                         <p className="bottom-text">Subscribe……That’s right. No contracts, subscribe monthly.</p>
                     </div>
                     <div className="right-col">
-                        <div className="first-img">
+                        <div className="first-img clip-reveal">
                             <Image src={HeroImage1} alt="" />
                             <Image src={HeroIcon1} alt="" />
                         </div>
-                        <div className="second-img">
+                        <div className="second-img clip-reveal">
                             <Image src={HeroImage2} alt="" />
                             <Image src={HeroIcon2} alt="" />
                         </div>

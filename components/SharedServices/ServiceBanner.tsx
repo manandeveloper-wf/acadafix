@@ -7,7 +7,7 @@ export default function ServiceBanner() {
     return (
         <section className="inner_banner">
             <div className="container">
-                <div className="wrap">
+                <div className="wrap text-reveal">
                     <h1>Shared <span>Services</span> & <br />Bureau Support</h1>
                     <Image src={BannerImage} alt="" />
                 </div>

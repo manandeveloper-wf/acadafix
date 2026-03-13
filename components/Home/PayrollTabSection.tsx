@@ -23,8 +23,8 @@ export default function PayrollTabSection() {
     return (
         <section className="payroll-tab-section">
             <div className="container">
-                <h2 className="center"><span>The payroll</span> system designed <br />around how MATs actually work.</h2>
-                <p className="text center">AcadaFix handles MAT structures, schools and education providers with multiple roles and pensions. So payroll and pension reporting is accurate the first time, every time.</p>
+                <h2 className="center text-reveal"><span>The payroll</span> system designed <br />around how MATs actually work.</h2>
+                <p className="text center text-reveal">AcadaFix handles MAT structures, schools and education providers with multiple roles and pensions. So payroll and pension reporting is accurate the first time, every time.</p>
                 <div className="tab-wrap">
                     <ul className="tab-list">
                         <li className={activeTab === 1 ? "active" : ""} onClick={() => setActiveTab(1)}>

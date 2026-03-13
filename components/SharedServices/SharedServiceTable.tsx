@@ -9,8 +9,8 @@ export default function SharedServiceTable() {
             <div className="container">
                 <div className="main-wrap">
                     <div className="top">
-                        <h3>The Shared Services Power Suite</h3>
-                        <p>We’ve built the tools that allow one central team to manage thousands of employees across multiple legal entities with total clarity.</p>
+                        <h3 className="text-reveal">The Shared Services Power Suite</h3>
+                        <p className="text-reveal">We’ve built the tools that allow one central team to manage thousands of employees across multiple legal entities with total clarity.</p>
                     </div>
                     <div className="bottom">
                         <div className="custom-table">

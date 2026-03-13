@@ -82,7 +82,7 @@ export default function EverythingNeed() {
                         <Image src={Image1} alt="" />
                     </div>
                     <div className="info">
-                        <h2><span>Everything</span> MAT payroll teams need. Nothing they don’t.</h2>
+                        <h2 className="text-reveal"><span>Everything</span> MAT payroll teams need. Nothing they don’t.</h2>
                         <p className="sub-text">AcadaFix includes all the essential tools required to run accurate, compliant payroll across every school in your trust — without the clutter of legacy systems.</p>
                         <FaqGroup faqs={faqGroup1} />
                     </div>
@@ -92,7 +92,7 @@ export default function EverythingNeed() {
                         <Image src={Image2} alt="" />
                     </div>
                     <div className="info">
-                        <h2><span>Accuracy</span> you can rely on. Compliance you can trust.</h2>
+                        <h2 className="text-reveal"><span>Accuracy</span> you can rely on. Compliance you can trust.</h2>
                         <p className="sub-text">AcadaFix is built to meet the payroll, pension and reporting requirements of UK Multi-Academy Trusts — with automated checks, audit trails and RTI-ready workflows.</p>
                         <FaqGroup faqs={faqGroup1} />
                     </div>

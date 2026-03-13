@@ -15,8 +15,8 @@ export default function BuildSection() {
     return (
         <section className="builed-section padding">
             <div className="container">
-                <h2 className="center"><span>Built</span> for Accuracy. <br />Engineered for Compliance.</h2>
-                <p className="sub-text center">AcadaFix meets the highest standards for payroll, pensions, HMRC compliance, reporting and data security - giving MAT’s confidence from day one.</p>
+                <h2 className="center text-reveal"><span>Built</span> for Accuracy. <br />Engineered for Compliance.</h2>
+                <p className="sub-text center text-reveal">AcadaFix meets the highest standards for payroll, pensions, HMRC compliance, reporting and data security - giving MAT’s confidence from day one.</p>
                 <div className="wrap">
                     <div className="top">
                         <div className="single">

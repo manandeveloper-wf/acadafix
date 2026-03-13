@@ -8,8 +8,8 @@ export default function DesignWithExperience() {
     return (
         <section className="design_experience">
             <div className="container">
-                <h2 className="center"><span>Designed</span> with real MAT payroll <br /> experience at its core.</h2>
-                <p className="sub-text center">AcadaFix was shaped by a CIPP education payroll professional who has years of experience processing school and MAT payruns — ensuring the system solves real operational challenges and software inadequacies.</p>
+                <h2 className="center text-reveal"><span>Designed</span> with real MAT payroll <br /> experience at its core.</h2>
+                <p className="sub-text center text-reveal   ">AcadaFix was shaped by a CIPP education payroll professional who has years of experience processing school and MAT payruns — ensuring the system solves real operational challenges and software inadequacies.</p>
                 <div className="box">
                     <div className="left-col">
                         <h3>Most payroll systems were built for corporate companies, then retrofitted for schools. AcadaFix is different. Created by a fellow MAT professional for the education sector.</h3>

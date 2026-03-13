@@ -10,34 +10,34 @@ export default function Footer() {
             <div className="container">
                 <div className="top">
                     <ul className="footer-menu">
-                        <li>
+                        <li className="text-reveal">
                             <Link href=" ">Product</Link>
                         </li>
-                        <li>
+                        <li className="text-reveal">
                             <Link href=" ">Resources</Link>
                         </li>
-                        <li>
+                        <li className="text-reveal">
                             <Link href=" ">How It Works</Link>
                         </li>
-                        <li>
+                        <li className="text-reveal">
                             <Link href=" ">Pricing</Link>
                         </li>
-                        <li>
+                        <li className="text-reveal">
                             <Link href=" ">Features</Link>
                         </li>
-                        <li>
+                        <li className="text-reveal">
                             <Link href=" ">Contact Us</Link>
                         </li>
-                        <li>
+                        <li className="text-reveal">
                             <Link href=" ">Compliance</Link>
                         </li>
-                        <li>
+                        <li className="text-reveal">
                             <Link href=" ">T&Cs / Cookie Policy</Link>
                         </li>
                     </ul>
                     <div className="newsletter">
-                        <p className="text">Get the latest insights on today's world of work delivered straight to your inbox.</p>
-                        <div className="input-group">
+                        <p className="text text-reveal">Get the latest insights on today's world of work delivered straight to your inbox.</p>
+                        <div className="input-group text-reveal">
                             <input
                                 type="email"
                                 placeholder="What's your e-mail?"
